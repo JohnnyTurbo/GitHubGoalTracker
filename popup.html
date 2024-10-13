@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      min-width: 200px;
+      padding: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input {
+      width: 100%;
+    }
+    button {
+      margin-top: 10px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h3>GitHub Goal Tracker</h3>
+  <label for="username">GitHub Username:</label>
+  <input type="text" id="username" placeholder="Enter your GitHub username">
+  <label for="target">Target Contributions:</label>
+  <input type="number" id="target" placeholder="Enter your target contributions">
+  <button id="save">Save</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
